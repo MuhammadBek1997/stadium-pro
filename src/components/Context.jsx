@@ -10,7 +10,7 @@ export const AppContext = createContext();
 
 export const AppProvider = ({children}) => {
 
-    const { data, loading, error } = useFetch('http://45.138.158.239:5923/api/Stadium/GetAll');
+    const { data, loading, error } = useFetch('https://45.138.158.239:5923/api/Stadium/GetAll');
 
     
     
