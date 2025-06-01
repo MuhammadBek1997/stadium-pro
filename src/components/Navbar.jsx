@@ -60,8 +60,8 @@ const Navbar = () => {
                 </Link>
                 </li>
                 <li>
-                <Link to={'/aboutus'} onClick={handleNavItemClick}>
-                  Biz haqimizda
+                <Link to={'/order'} onClick={handleNavItemClick}>
+                  Buyurtmalar
                 </Link>
                 </li>
                 <li>

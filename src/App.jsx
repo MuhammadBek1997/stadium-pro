@@ -7,6 +7,7 @@ import Card3D from './components/Card3D'
 import Home from './pages/Home'
 import Navbar from './components/Navbar'
 import Collections from './pages/Collections';
+import Orders from './pages/Orders';
 
 function App() {
 
@@ -14,8 +15,9 @@ function App() {
     <>
     <Navbar/>
     <Routes>
-    <Route path='/' element={<Home/>}/>
-    <Route path='/collection' element={<Collections/>}/>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/collection' element={<Collections/>}/>
+      <Route path='/order' element={<Orders/>}/>
     </Routes>
     </>
   )
