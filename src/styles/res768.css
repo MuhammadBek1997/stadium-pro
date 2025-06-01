@@ -1,0 +1,442 @@
+@media screen and (max-width:850px) {
+    .home{
+        overflow-x: hidden;
+    }
+    .home-hero{
+        padding: 25px;
+    }
+    .home-hero-img{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
+    .home-hero-text{
+    color: #FFF;
+    text-align: end;
+    margin-top: 300px;
+    } 
+    .home-hero-text-s{
+        font-size: 150%;
+        font-weight: 550;
+    }
+    .home-hero-text-m{
+        font-size: 250%;
+        font-weight: 800;
+    }
+    .home-hero-text-l{
+        font-size: 350%;
+        font-weight: 900;
+    }
+
+
+
+
+
+
+
+    .home-ourserv-box{
+        
+        margin: 70px auto 0 auto;
+        padding-bottom: 150px;
+    }
+    .home-ourserv-list{
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 0px;
+    }
+    .home-ourserv-list-item{
+        width: 70%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+
+
+
+    .winter-collection-top-box{
+        max-width: 1920px;
+        height: 600px;
+        position: relative;
+    }
+    .winter-collection-top{
+        width: 90%;
+        height: 100%;
+        margin: 120px auto 20px auto;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 0px;
+    }
+    .winter-collection-top img{
+        position: absolute;
+        width: 400px;
+        top: -200px;
+        left: auto;
+    }
+    .winter-collection-top h2{
+        display: none;
+        margin-top: -200px;
+        font-size: 80px;
+        font-weight: 900;
+        margin-bottom: -20px;
+    }
+    .winter-collection-top span{
+        display: none;
+        font-size: 17px;
+    }
+    .winter-collection-top h3{
+        font-size: 31px;
+        font-family:"Poppins" sans-serif;
+        font-weight: 750;
+        text-align: center;
+    }
+    .winter-collection-top p{
+        width: 70%;
+        font-size: 17px;
+        font-weight: 300;
+    }
+    .winter-collection-top-text-cont{
+        width: 100%;
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    .winter-collection-head-text{
+        margin-top: -120px;
+        color: #FFF;
+    }
+    .winter-collection-extra-text{
+        color: #dcdada;
+    }
+    .winter-collection{
+        grid-template-columns: auto auto auto;
+    }
+    .winter-collectBtn{
+        margin-top: 50px;
+    }
+
+
+
+
+
+
+
+    
+    .autumn-collection-top-box{
+        max-width: 1920px;
+        height: 600px;
+        position: relative;
+    }
+    .autumn-collection-top{
+        width: 90%;
+        height: 100%;
+        margin: 150px auto 20px auto;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 0px;
+        
+    }
+    .autumn-collection-top img{
+        position: absolute;
+        max-width: 400px;
+        top: -190px;
+        left: auto;
+    }
+    .autumn-collection-top h2{
+        display: none;
+        margin-top: -180px;
+        font-size: 80px;
+        font-weight: 900;
+        margin-bottom: -20px;
+    }
+    .autumn-collection-top span{
+        font-size: 17px;
+        display: none;
+    }
+    .autumn-collection-top h3{
+        font-size: 31px;
+        font-family:"Poppins" sans-serif;
+        font-weight: 750;
+        text-align: center;
+    }
+    .autumn-collection-top p{
+        width: 70%;
+        font-size: 17px;
+        font-weight: 300;
+    }
+    .autumn-collection-top-text-cont{
+        width: 100%;
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    .autumn-collection-head-text{
+        margin-top: -140px;
+        color: #FFF;
+    }
+    .autumn-collection-extra-text{
+        color: #dcdada;
+    }
+    .autumn-collection{
+        grid-template-columns: auto auto auto;
+    }
+    .autumn-collectBtn{
+        margin-top: 50px;
+    }
+
+    
+
+
+
+
+
+
+
+    .summer-collection-top-box{
+        max-width: 1920px;
+        height: 600px;
+        position: relative;
+    }
+    .summer-collection-top{
+        width: 90%;
+        height: 100%;
+        margin: 150px auto 20px auto;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 0px;
+        
+    }
+    .summer-collection-top img{
+        position: absolute;
+        width: 400px;
+        top: -200px;
+        left: auto;
+    }
+    .summer-collection-top h2{
+        margin-top: -180px;
+        font-size: 75px;
+        font-weight: 900;
+        margin-bottom: -20px;
+        display: none;
+    }
+    .summer-collection-top span{
+        font-size: 17px;
+        display: none;
+    }
+    .summer-collection-top h3{
+        font-size: 31px;
+        font-family:"Poppins" sans-serif;
+        font-weight: 750;
+        text-align: center;
+    }
+    .summer-collection-top p{
+        width: 70%;
+        font-size: 17px;
+        font-weight: 300;
+    }
+    .summer-collection-top-text-cont{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 200px;
+        margin-left: 0;
+    }
+    .summer-collection-head-text{
+        margin-top: -140px;
+        color: #FFF;
+    }
+    .summer-collection-extra-text{
+        color: #dcdada;
+    }
+    .summer-collection{
+        grid-template-columns: auto auto auto;
+    }
+    .summer-collectBtn{
+        margin-top: 50px;
+    }
+
+
+
+
+
+.footer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo{
+    width: 100%;
+}
+.footer-logo img{
+    width: 15%;
+    margin: 0 auto;
+}
+.footer-logo p{
+    width: 80%;
+    text-align: center;
+    margin: 50px auto;
+}
+.footer-menu{
+    width: 70%;
+    text-align: center;
+}
+.footer-menu-cont{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 50px auto;
+}
+.footer-contacts h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: medium;
+  }
+  .footer-contacts p{
+    width: 50%;
+    font-size: 13px;
+    margin: 0 auto 50px auto;
+  }
+  .footer-linkus{
+    width: 80%;
+  }
+  .footer-linkus h3{
+    text-align: center;
+  }
+  .footer-linkus input{
+    width: 100%;
+  }
+  .footer-linkus button{
+    top: 44px;
+  }
+
+
+}
+
+@media screen and (max-width:768px) {
+    .collection-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .collection-sidebar{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .collection-sidebar-categories-toptext{
+        display: none;
+    }
+    .collection-sidebar-categories{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 10px auto;
+    }
+    .collection-sidebar-search input{
+        width: 100%;
+    }
+    .collection-sidebar-search button{
+        right: 5px;
+        padding-left: 1%;
+    }
+    .non-selected{
+        box-shadow: 0px 0px 20px rgb(229, 229, 229);
+        border-radius: 15px;
+        padding: 5px;
+    }
+    .selected{
+        box-shadow: 0px 0px 20px rgb(232, 203, 203);
+    }
+
+    .collection{
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    .collection-list{
+        grid-template-columns: auto auto auto;
+        width: 100%;
+    }
+    .collection-item img{
+        width: 70%;
+        height: 70%;
+    }
+    .collection-item h4{
+        font-size: small;
+    }
+
+
+
+
+    .single-box{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .single-box img{
+        width: 70%;
+        border-radius: 15px;
+    }
+    .single-info{
+        width: 90%;
+    }
+    .single-info h2{
+        text-align: center;
+    }
+
+
+
+
+
+    .aboutus{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .aboutus img{
+        width: 80%;
+    }
+    .aboutus-info{
+        width: 100%;
+    }
+    .aboutus-info-list{
+        width: 100%;
+        text-align: start;
+    }
+
+
+
+
+
+    .contacts{
+        display: flex;
+        flex-direction: column;
+    }
+    .contacts-link{
+        width: 100%;
+    }
+    .contacts-map{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+}
+

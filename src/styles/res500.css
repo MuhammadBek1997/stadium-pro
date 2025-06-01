@@ -1,0 +1,309 @@
+@media screen and (max-width:550px) {
+    .home-hero{
+        padding: 0;
+        height: 70%;
+    }
+    .home-hero-img{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+      }
+    .home-hero-text{
+        color: #FFF;
+        text-align: end;
+        margin-right: 10px;
+        margin-top: 220px;
+      } 
+      .home-hero-text-s{
+        font-size: 150%;
+        font-weight: 550;
+      }
+      .home-hero-text-m{
+        font-size: 250%;
+        font-weight: 800;
+      }
+      .home-hero-text-l{
+        font-size: 350%;
+        font-weight: 900;
+      }
+    
+
+
+
+
+
+      .home-ourserv-box{
+        margin: 0px auto;
+        padding-bottom: 50px;
+      }
+      .home-ourserv-list{
+        display: grid;
+        grid-template-columns: auto;
+      }
+      .home-ourserv-list-item{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: start;
+        margin-left: 10px;
+        align-items: center;
+        gap: 10px;
+      }
+
+
+
+
+
+
+
+
+
+        .winter-collection-top-box{
+          max-width: 1920px;
+          height: 600px;
+          position: relative;
+      }
+      .winter-collection-top{
+          width: 90%;
+          height: 100%;
+          margin: 150px auto 20px auto;
+          display: flex;
+          flex-direction: column-reverse;
+          align-items: center;
+          gap: 0px;
+        }
+      .winter-collection-top img{
+          position: absolute;
+          width: 300px;
+          top: -70px;
+          left: auto;
+        }
+      .winter-collection-top h2{
+          margin-top: -120px;
+          font-size: 50px;
+          font-weight: 900;
+          margin-bottom: -20px;
+        }
+      .winter-collection-top span{
+          font-size: 15px;
+        }
+      .winter-collection-top h3{
+          font-size: 25px;
+          font-family:"Poppins" sans-serif;
+          font-weight: 750;
+        }
+      .winter-collection-top p{
+          width: 70%;
+          font-size: 12px;
+          font-weight: 300;
+        }
+      .winter-collection-top-text-cont{
+          width: 90%;
+          margin-top: 240px;
+        }
+      .winter-collection-head-text{
+          margin-top: -100px;
+          font-size: xx-large;
+          color: #FFF;
+        }
+      .winter-collection-extra-text{
+          color: #dcdada;
+          font-size: large;
+        }
+      .winter-collection{
+          grid-template-columns: auto;
+        }
+      .winter-collectBtn{
+        width: 100px;
+        height: 30px;
+          margin-top: 10px;
+          font-size: small;
+        }
+
+
+
+
+
+
+
+
+        .summer-collection-top-box{
+          max-width: 1920px;
+          height: 600px;
+          position: relative;
+      }
+      .summer-collection-top{
+          width: 90%;
+          height: 100%;
+          margin: 150px auto 20px auto;
+          display: flex;
+          flex-direction: column-reverse;
+          align-items: center;
+          gap: 0px;
+          
+      }
+      .summer-collection-top img{
+        position: absolute;
+        width: 300px;
+        top: -70px;
+        left: auto;
+    }
+    .summer-collection-top h2{
+        margin-top: -120px;
+        font-size: 50px;
+        font-weight: 900;
+        margin-bottom: -20px;
+    }
+    .summer-collection-top span{
+        font-size: 15px;
+    }
+    .summer-collection-top h3{
+        font-size: 25px;
+        font-family:"Poppins" sans-serif;
+        font-weight: 750;
+    }
+    .summer-collection-top p{
+        width: 70%;
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .summer-collection-top-text-cont{
+        width: 90%;
+        margin-top: 240px;
+    }
+    .summer-collection-head-text{
+        margin-top: -100px;
+        font-size: xx-large;
+        color: #FFF;
+    }
+    .summer-collection-extra-text{
+        color: #dcdada;
+        font-size: large;
+    }
+    .summer-collection{
+        grid-template-columns: auto;
+    }
+    .summer-collectBtn{
+      width: 100px;
+      height: 30px;
+        margin-top: 10px;
+        font-size: small;
+    }
+
+
+
+
+    .aboutus-info-head{
+        font-size: x-large;
+    }
+    .aboutus-info-list-item p{
+        font-size: medium;
+    }
+
+    .collection-top{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .collection-top-left{
+        width: 100%;
+
+    }
+    .collection-top-right{
+        width: 100%;
+        justify-content: center;
+    }
+    .collection-top-left-head{
+        font-size: large;
+    }
+    .collection-top-left-shows p{
+        font-size: small;
+    }
+    .collection-top-right-sort{
+        font-size: small;
+    }
+
+    .paginations{
+        width: 100%;
+        gap: 17px;
+
+    }
+    .page-item{
+        width: 20px;
+    }
+
+    }
+
+
+    @media screen and (max-width:426px) {
+        .collection-sidebar-categories{
+            position: fixed;
+            left: 0;
+            bottom: -10px;
+            background-color: #FFF;
+            width: 100%;
+            height: 50px;
+            box-shadow: 0px 0px 20px rgb(230, 229, 229);
+        }
+        .collection-sidebar-search{
+            width: 95%;
+        }
+        .collection-sidebar-categories h2{
+            font-size: 65%;
+            box-shadow: none;
+            border-radius: 15px;
+            padding: 5px;
+        }
+        .collection{
+            width: 80%;
+        }
+        .collection-list{
+            width: 100%;
+            grid-template-columns: auto;
+            justify-content: center;
+            align-items: center;
+            padding-left: 10%;
+        }
+        .collection-item img{
+            width: 90%;
+            height: 70%;
+        }
+        
+
+
+
+
+        .single-info h2{
+            font-size: medium;
+        }
+        .single-info-table-column{
+            font-size: small;
+        }
+        
+
+
+        .footer-linkus{
+            width: 100%;
+        }
+
+        
+    }
+    
+
+
+
+
+    @media screen and (max-width:355px) {
+        .single-info h2{
+            font-size: small;
+        }
+        .single-info-table-column{
+            font-size: x-small;
+        }
+        
+    }
