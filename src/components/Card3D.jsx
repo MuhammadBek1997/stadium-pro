@@ -65,12 +65,6 @@ const Container = styled("div")(() => ({
 const Card3D = ({title,image}) => {
     const [flip, setFlip] = useState(false);
     
-    // const {data} = UseGlobalContext()
-
-    // if(!data) return <div>Yuklanmoqda</div>;
-
-
-    // console.log(data);
     
 
   return (

@@ -7,13 +7,20 @@ const useFetch = (url) => {
 
   const getData = async () => {
     try {
-      const response = await fetch(url);
+      const response = await fetch(url, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDg3ODQ2ODAsImlzcyI6IkZ1ZGJhbGxNYW5hZ2VtZW50LnV6IiwiYXVkIjoiRm9vdGJhbGxNYW5hZ2VtZW50Q2xpZW50In0.01rqyllTk0EVnTymtGWT54-tTCHLFLrOiim1Hhne2ss'
+        }
+      });
+
       console.log("Status:", response.status);
       if (!response.ok) throw new Error("API so'rovi muvaffaqiyatli emas");
 
       const result = await response.json();
       setData(result);
-      
+
     } catch (err) {
       console.log("Xatolik:", err);
       setError(err);
@@ -21,6 +28,7 @@ const useFetch = (url) => {
       setLoading(false);
     }
   };
+
   useEffect(() => {
     getData();
   }, [url]);
@@ -28,4 +36,4 @@ const useFetch = (url) => {
   return { data, loading, error };
 };
 
-export default useFetch; 
+export default useFetch;

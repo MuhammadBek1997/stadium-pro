@@ -14,6 +14,8 @@ const Home = () => {
   const navigate = useNavigate();
   
 
+
+
   const sendMessage = (event) => {
     event.preventDefault();
     
@@ -50,6 +52,7 @@ const Home = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
+  if(!data) return <div>Yuklanmoqda...</div>
 
 
   return (
@@ -158,18 +161,12 @@ const Home = () => {
         </div>
         
         <div className="winter-collection">
-        {/* {width>550?data.winter.map((item, index) => (
-    <div key={index} className="winter-item" onClick={()=>navigate(`/single/${item.id}`)}>
-      <img src={item.image} alt={item.name} />
-      <h4>{item.name}</h4>
-    </div>
-  )):
-  data.winter.map((item, index) => (
+        {data.map((item, index) => (
     index<3?<div key={index} className="winter-item" onClick={()=>navigate(`/single/${item.id}`)}>
     <img src={item.image} alt={item.name} />
     <h4>{item.name}</h4>
   </div>:null
-  ))} */}
+  ))}
         </div>
 
 
@@ -210,16 +207,11 @@ const Home = () => {
         </div>
 
         <div className="summer-collection">
-        {/* {width>550?data.summer.map((item, index) => (
-      <div key={index} className="summer-item" onClick={()=>navigate(`/single/${item.id}`)}>
-        <img src={item.image} alt={item.name} />
-        <h4>{item.name}</h4>
-      </div>)):
-      data.summer.map((item, index) => (
+        {data.map((item, index) => (
         index<3?<div key={index} className="summer-item" onClick={()=>navigate(`/single/${item.id}`)}>
         <img src={item.image} alt={item.name} />
         <h4>{item.name}</h4>
-      </div>:null))} */}
+      </div>:null))}
             </div>
 
 
