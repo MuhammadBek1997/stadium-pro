@@ -15,7 +15,7 @@ export const AppProvider = ({children}) => {
      
 
 
-    const handleAddStadium = async (customerId,stadiumId,startTime,endTime) =>{
+    const handleCreateOrder = async (customerId,stadiumId,startTime,endTime) =>{
         try {
             const response = await fetch('http://45.138.158.239:5923/api/Order/CreateOrder',{
                 method: 'POST',
@@ -33,7 +33,7 @@ export const AppProvider = ({children}) => {
             const data = await response.json();
             console.log('Natija:', data);
         } catch (err) {
-            console.error('Xatolik:', error);
+            console.error('Xatolik:', err);
         }
 
         location.reload()
