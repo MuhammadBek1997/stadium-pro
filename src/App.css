@@ -453,6 +453,391 @@ li {
   border-radius: 5px;
 }
 
+
+/* Winter Collection */
+.winter-collection-top {
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(0deg, #2a3147 9%, #5a6381 50%, #7884b6 100%); /* Adjusted gradient for a colder, frostier tone */
+  transition: background 0.3s ease; /* Smooth transition for hover */
+}
+
+.winter-collection-top:hover {
+  background-image: linear-gradient(0deg, #1f263a 9%, #4d5678 50%, #6a76a8 100%); /* Slightly darker on hover */
+}
+
+.winter-collection-top .collection-btn {
+  color: #7884b6; /* Matches the gradient's lighter tone */
+  background: #ffffff; /* Keep white background for contrast */
+  border: 2px solid #7884b6; /* Add border for emphasis */
+  transition: all 0.3s ease;
+}
+
+.winter-collection-top .collection-btn:hover {
+  background: #7884b6; /* Button background changes to match gradient */
+  color: #ffffff; /* White text on hover */
+}
+
+/* Summer Collection */
+.summer-collection-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(0deg, #1b4a47 9%, #2a7a75 50%, #3a998f 100%); /* Warmer, vibrant gradient */
+  transition: background 0.3s ease; /* Smooth transition for hover */
+}
+
+.summer-collection-top:hover {
+  background-image: linear-gradient(0deg, #163f3c 9%, #256f6a 50%, #338a80 100%); /* Slightly deeper tones on hover */
+}
+
+.summer-collection-top .collection-btn {
+  color: #307e7a; /* Matches the gradient's mid-tone */
+  background: #ffffff; /* Keep white background for contrast */
+  border: 2px solid #307e7a; /* Add border for emphasis */
+  transition: all 0.3s ease;
+}
+
+.summer-collection-top .collection-btn:hover {
+  background: #307e7a; /* Button background changes to match gradient */
+  color: #ffffff; /* White text on hover */
+}
+
+/* Winter Collection Button */
+.winter-collectBtn {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  font-size: large;
+  font-weight: 700;
+  background: linear-gradient(90deg, #5a6381 0%, #7884b6 100%); /* Gradient matching winter tones */
+  color: #ffffff; /* White text for contrast */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.winter-collectBtn:hover {
+  background: linear-gradient(90deg, #4d5678 0%, #6a76a8 100%); /* Slightly darker gradient on hover */
+  box-shadow: 0 5px 15px rgba(120, 132, 182, 0.4); /* Subtle shadow for depth */
+}
+
+/* Summer Collection Button */
+.summer-collectBtn {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  font-size: large;
+  font-weight: 700;
+  background: linear-gradient(90deg, #2a7a75 0%, #3a998f 100%); /* Gradient matching summer tones */
+  color: #ffffff; /* White text for contrast */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.summer-collectBtn:hover {
+  background: linear-gradient(90deg, #256f6a 0%, #338a80 100%); /* Slightly darker gradient on hover */
+  box-shadow: 0 5px 15px rgba(58, 153, 143, 0.4); /* Subtle shadow for depth */
+}
+
+/* Footer Submit Button */
+.footer-linkus button {
+  width: 150px;
+  height: 40px;
+  background: linear-gradient(90deg, #f42c37 0%, #ff5e66 100%); /* Gradient with vibrant red tones */
+  color: #ffffff;
+  text-transform: capitalize;
+  letter-spacing: -0.45px;
+  font-weight: 400;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 5px 25px rgba(244, 44, 55, 0.4);
+  position: absolute;
+  top: 44px;
+  right: 10px;
+  transition: all 0.3s ease;
+}
+
+.footer-linkus button:hover {
+  background: linear-gradient(90deg, #d91a25 0%, #e84b52 100%); /* Darker red gradient on hover */
+  box-shadow: 0 5px 15px rgba(244, 44, 55, 0.6); /* Enhanced shadow on hover */
+}
+
+
+
+
+/* Winter Collection */
+.winter-collection-top {
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(0deg, #2a3147 9%, #5a6381 50%, #7884b6 100%); /* Existing gradient */
+  transition: background 0.3s ease;
+}
+
+.winter-collection-top:hover {
+  background-image: linear-gradient(0deg, #1f263a 9%, #4d5678 50%, #6a76a8 100%);
+}
+
+.winter-collection-top h2 {
+  font-size: 100px; /* Increased from 96px */
+  font-weight: 900;
+  color: #ffffff; /* White text */
+}
+
+.winter-collection-top span {
+  font-size: 24px; /* Increased for visibility */
+  font-weight: 500;
+  color: #ffffff; /* White text */
+}
+
+.winter-collection-top-text-cont {
+  width: 30%;
+  z-index: 1;
+  text-align: center; /* Center text for balance */
+}
+
+.winter-collection-top-text-cont h3 {
+  font-size: 34px; /* Increased from 31px */
+  font-family: "Poppins", sans-serif;
+  font-weight: 750;
+  color: #ffffff; /* White text */
+}
+
+.winter-collection-top-text-cont p {
+  width: 70%;
+  font-size: 19px; /* Increased from 17px */
+  font-weight: 300;
+  line-height: 25px; /* Adjusted for readability */
+  margin: 20px auto; /* Centered */
+  color: #ffffff; /* White text */
+}
+
+.winter-collectBtn {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  font-size: large;
+  font-weight: 700;
+  background: linear-gradient(90deg, #5a6381 0%, #7884b6 100%); /* Gradient from previous response */
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.winter-collectBtn:hover {
+  background: linear-gradient(90deg, #4d5678 0%, #6a76a8 100%);
+  box-shadow: 0 5px 15px rgba(120, 132, 182, 0.4);
+}
+
+/* Summer Collection */
+.summer-collection-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(0deg, #1b4a47 9%, #2a7a75 50%, #3a998f 100%); /* Existing gradient */
+  transition: background 0.3s ease;
+}
+
+.summer-collection-top:hover {
+  background-image: linear-gradient(0deg, #163f3c 9%, #256f6a 50%, #338a80 100%);
+}
+
+.summer-collection-top h2 {
+  font-size: 100px; /* Increased from 96px */
+  font-weight: 900;
+  color: #ffffff; /* White text */
+}
+
+.summer-collection-top span {
+  font-size: 24px; /* Increased for visibility */
+  font-weight: 500;
+  color: #ffffff; /* White text */
+}
+
+.summer-collection-top-text-cont {
+  width: 30%;
+  z-index: 1;
+  text-align: center; /* Center text for balance */
+}
+
+.summer-collection-top-text-cont h3 {
+  font-size: 34px; /* Increased from 31px */
+  font-family: "Poppins", sans-serif;
+  font-weight: 750;
+  color: #ffffff; /* White text */
+}
+
+.summer-collection-top-text-cont p {
+  width: 70%;
+  font-size: 19px; /* Increased from 17px */
+  font-weight: 300;
+  line-height: 25px; /* Adjusted for readability */
+  margin: 20px auto; /* Centered */
+  color: #ffffff; /* White text */
+}
+
+.summer-collectBtn {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  font-size: large;
+  font-weight: 700;
+  background: linear-gradient(90deg, #2a7a75 0%, #3a998f 100%); /* Gradient from previous response */
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.summer-collectBtn:hover {
+  background: linear-gradient(90deg, #256f6a 0%, #338a80 100%);
+  box-shadow: 0 5px 15px rgba(58, 153, 143, 0.4);
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 1770px) {
+  .winter-collection-top-text-cont,
+  .summer-collection-top-text-cont {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .winter-collection-top,
+  .summer-collection-top {
+    width: 95%;
+    height: 350px;
+    margin: 150px auto 20px auto;
+    gap: 25%;
+  }
+
+  .winter-collection-top h2,
+  .summer-collection-top h2 {
+    font-size: 80px; /* Scaled down */
+  }
+
+  .winter-collection-top span,
+  .summer-collection-top span {
+    font-size: 20px;
+  }
+
+  .winter-collection-top-text-cont h3,
+  .summer-collection-top-text-cont h3 {
+    font-size: 30px;
+  }
+
+  .winter-collection-top-text-cont p,
+  .summer-collection-top-text-cont p {
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  .winter-collectBtn,
+  .summer-collectBtn {
+    width: 140px;
+    height: 45px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .winter-collection-top,
+  .summer-collection-top {
+    flex-direction: column-reverse;
+    width: 90%;
+    height: 600px;
+    margin: 120px auto 20px auto;
+    gap: 0;
+  }
+
+  .winter-collection-top img,
+  .summer-collection-top img {
+    width: 400px;
+    top: -200px;
+    left: auto;
+  }
+
+  .winter-collection-top h2,
+  .summer-collection-top h2 {
+    display: none; /* Matches your JSX behavior */
+  }
+
+  .winter-collection-top span,
+  .summer-collection-top span {
+    display: none; /* Matches your JSX behavior */
+  }
+
+  .winter-collection-top-text-cont,
+  .summer-collection-top-text-cont {
+    width: 100%;
+    margin-top: 200px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .winter-collection-top-text-cont h3,
+  .summer-collection-top-text-cont h3 {
+    font-size: 28px;
+  }
+
+  .winter-collection-top-text-cont p,
+  .summer-collection-top-text-cont p {
+    width: 90%;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .winter-collectBtn,
+  .summer-collectBtn {
+    margin-top: 50px;
+    width: 140px;
+    height: 45px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .winter-collection-top img,
+  .summer-collection-top img {
+    width: 300px;
+    top: -70px;
+  }
+
+  .winter-collection-top-text-cont,
+  .summer-collection-top-text-cont {
+    width: 90%;
+    margin-top: 240px;
+  }
+
+  .winter-collection-top-text-cont h3,
+  .summer-collection-top-text-cont h3 {
+    font-size: 24px;
+  }
+
+  .winter-collection-top-text-cont p,
+  .summer-collection-top-text-cont p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .winter-collectBtn,
+  .summer-collectBtn {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+  }
+}
+
+
+
 /* Responsive Styles */
 @media screen and (max-width: 1770px) {
   .winter-collection-top img,
@@ -582,6 +967,7 @@ li {
 
   .winter-collection-top,
   .summer-collection-top {
+    display: flex;
     flex-direction: column-reverse;
     width: 90%;
     height: 600px;
@@ -591,7 +977,7 @@ li {
 
   .winter-collection-top img,
   .summer-collection-top img {
-    width: 400px;
+    width: 200px;
     top: -200px;
     left: auto;
   }
@@ -599,6 +985,10 @@ li {
   .winter-collection-top h2,
   .summer-collection-top h2 {
     display: none;
+  }
+  .winter-collection-top-text-cont,
+  .summer-collection-top-text-cont{
+    margin-top: 10px;
   }
 
   .winter-collection-top span,
