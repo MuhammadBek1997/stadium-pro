@@ -1,6 +1,5 @@
 import { createContext, useContext } from "react";
 import useFetch from "../hooks/useFetch";
-import { stadium } from "../data/data";
 
 
 
@@ -10,9 +9,8 @@ export const AppContext = createContext();
 
 export const AppProvider = ({children}) => {
 
-    // const { data, loading, error } = useFetch('https://45.138.158.239:5923/api/Stadium/GetAll');
+    const { data, loading, error } = useFetch('https://45.138.158.239:5923/api/Stadium/GetAll');
 
-    const data = stadium
     
 
 
