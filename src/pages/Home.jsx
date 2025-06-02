@@ -38,17 +38,9 @@ const Home = () => {
     });
   }
 
-
-
-
   useEffect(() => {
-    // Function to update width when the window is resized
     const handleResize = () => setWidth(window.innerWidth);
-
-    // Add event listener on component mount
     window.addEventListener('resize', handleResize);
-
-    // Remove event listener on component unmount
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 

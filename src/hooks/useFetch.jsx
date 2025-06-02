@@ -11,8 +11,7 @@ const useFetch = (url) => {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDg3ODQ2ODAsImlzcyI6IkZ1ZGJhbGxNYW5hZ2VtZW50LnV6IiwiYXVkIjoiRm9vdGJhbGxNYW5hZ2VtZW50Q2xpZW50In0.01rqyllTk0EVnTymtGWT54-tTCHLFLrOiim1Hhne2ss'
-        }
+          }
       });
 
       console.log("Status:", response.status);
