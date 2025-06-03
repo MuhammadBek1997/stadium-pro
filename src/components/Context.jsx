@@ -1,17 +1,18 @@
 import { createContext, useContext } from "react";
 import useFetch from "../hooks/useFetch";
+import { stadium } from "../data/data";
 
 
 
 
 export const AppContext = createContext();
 
-
+// 39fae3e8a71cbf679cca80047ff87535
 export const AppProvider = ({children}) => {
 
-    const { data, loading, error } = useFetch('https://45.138.158.239:5923/api/Stadium/GetAll');
+    // const { data, loading, error } = useFetch('http://45.138.158.239:5923/api/Stadium/GetAll');
 
-    
+    const data = stadium
 
 
     const handleCreateOrder = async (customerId,stadiumId,startTime,endTime) =>{
